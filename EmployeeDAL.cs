@@ -16,10 +16,10 @@ namespace DAL
 	//comd.ExecuteScalar :::::::::::::for Aggrdate functions with SELECT
 	//comd.ExecuteNonQuery:::::::::::::for DML  (insert, update or delete command)
 	//comd.ExecuteReader::::::::::::::::for SQL (Select command)
-
+       // comment by onkar
 	//Helper class
 	public class EmployeeDAL
-	{
+	{    // comment by onkar
 		public static string conenctionString = @"server=localhost;user=root;database=Knowitdb;password='mr.cricket02'";
 		public static List<Employee> GetAll()
 		{
